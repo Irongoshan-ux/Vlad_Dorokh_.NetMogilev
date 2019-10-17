@@ -14,20 +14,20 @@ namespace Module2_1
             do
             {
                 resultOfConversion = TryIntParse("Введите количество компаний: ", out numberOfCompanies);
-                if (resultOfConversion == false)
+                if ((resultOfConversion == false) || (numberOfCompanies <= 0))
                 {
                     Console.WriteLine("Введено неверное количество компаний.");
                     continue;
                 }
 
                 resultOfConversion = TryDoubleParse("Введите значение государственного налога: ", out percentageOfStateTax);
-                if (resultOfConversion == false)
+                if ((resultOfConversion == false) || (percentageOfStateTax < 0))
                 {
                     Console.WriteLine("Введено неверное значение государственного налога.");
                     continue;
                 }
             }
-            while ((resultOfConversion == false) || (numberOfCompanies < 0) || (percentageOfStateTax < 0));
+            while ((resultOfConversion == false) || (numberOfCompanies <= 0) || (percentageOfStateTax < 0));
 
             Console.WriteLine("Суммарный налог государству: " + CalculateStateTax(numberOfCompanies, earningOfCompany, percentageOfStateTax));
         }
