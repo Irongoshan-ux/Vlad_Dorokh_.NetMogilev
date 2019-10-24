@@ -32,7 +32,7 @@ namespace Module3_1
                 }
             }
 
-            if (firstNumber > 0 && secondNumber < 0)
+            if ((firstNumber > 0) && (secondNumber < 0))
             {
                 for (int i = 0; i < firstNumber; i++)
                 {
