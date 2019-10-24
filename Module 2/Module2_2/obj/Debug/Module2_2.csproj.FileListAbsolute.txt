@@ -1,0 +1,7 @@
+D:\Repository\.NET-Mogilev\Module2_2\bin\Debug\Module2_2.exe.config
+D:\Repository\.NET-Mogilev\Module2_2\bin\Debug\Module2_2.exe
+D:\Repository\.NET-Mogilev\Module2_2\bin\Debug\Module2_2.pdb
+D:\Repository\.NET-Mogilev\Module2_2\obj\Debug\Module2_2.csprojAssemblyReference.cache
+D:\Repository\.NET-Mogilev\Module2_2\obj\Debug\Module2_2.csproj.CoreCompileInputs.cache
+D:\Repository\.NET-Mogilev\Module2_2\obj\Debug\Module2_2.exe
+D:\Repository\.NET-Mogilev\Module2_2\obj\Debug\Module2_2.pdb
