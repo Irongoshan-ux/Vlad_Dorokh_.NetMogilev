@@ -1,0 +1,14 @@
+D:\Repository\.NET-Mogilev\Module 2\Module2_4\bin\Debug\Module2_4.exe.config
+D:\Repository\.NET-Mogilev\Module 2\Module2_4\bin\Debug\Module2_4.exe
+D:\Repository\.NET-Mogilev\Module 2\Module2_4\bin\Debug\Module2_4.pdb
+D:\Repository\.NET-Mogilev\Module 2\Module2_4\obj\Debug\Module2_4.csprojAssemblyReference.cache
+D:\Repository\.NET-Mogilev\Module 2\Module2_4\obj\Debug\Module2_4.csproj.CoreCompileInputs.cache
+D:\Repository\.NET-Mogilev\Module 2\Module2_4\obj\Debug\Module2_4.exe
+D:\Repository\.NET-Mogilev\Module 2\Module2_4\obj\Debug\Module2_4.pdb
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 2\Module2_4\bin\Debug\Module2_4.exe.config
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 2\Module2_4\bin\Debug\Module2_4.exe
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 2\Module2_4\bin\Debug\Module2_4.pdb
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 2\Module2_4\obj\Debug\Module2_4.csprojAssemblyReference.cache
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 2\Module2_4\obj\Debug\Module2_4.csproj.CoreCompileInputs.cache
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 2\Module2_4\obj\Debug\Module2_4.exe
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 2\Module2_4\obj\Debug\Module2_4.pdb
