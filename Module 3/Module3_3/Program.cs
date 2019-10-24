@@ -13,7 +13,7 @@ namespace Module3_3
             Random random = new Random();
 
             int numberOfFibonacciNumbers = random.Next(1, 100);
-            Console.WriteLine("Количество чисел: " + numberOfFibonacciNumbers);
+            Console.WriteLine("Число: " + numberOfFibonacciNumbers);
 
             long[] FibonacciNumbers = new long[numberOfFibonacciNumbers];
             FibonacciNumbers[0] = 0;
