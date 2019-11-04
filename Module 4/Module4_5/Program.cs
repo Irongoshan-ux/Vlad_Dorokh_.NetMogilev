@@ -10,8 +10,9 @@ namespace Module4_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(MathOperation(-4, 14, MathematicalOperation.Add));
-            Console.WriteLine(GetDaysOfMonth(Months.February, 2020));
+            Console.WriteLine("Математическая операция: " + MathOperation(-4, 14, MathematicalOperation.Add));
+
+            Console.WriteLine($"Количество дней в месяце {Months.February} 2020 года: {GetDaysOfMonth(Months.February, 2020)}");
         }
 
         static int GetDaysOfMonth(Months month, int year)

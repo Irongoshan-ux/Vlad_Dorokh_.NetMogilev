@@ -12,6 +12,17 @@ namespace Module4_7
         {
             Random random = new Random();
 
+            int[] numbers = new int[5];
+
+            Console.Write("Элементы массива: ");
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] = random.Next(-20, 20);
+                Console.Write(numbers[i] + " ");
+            }
+
+            Console.WriteLine();
+
             bool choiceOfSortDirection;
 
             if (random.Next(100) <= 50)
@@ -24,16 +35,6 @@ namespace Module4_7
                 choiceOfSortDirection = false;
                 Console.WriteLine("Сортировка по убыванию");
             }
-
-            int[] numbers = new int[5];
-
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                numbers[i] = random.Next(-20, 20);
-                Console.Write(numbers[i] + " ");
-            }
-
-            Console.WriteLine();
 
             SortArray(numbers, choiceOfSortDirection);
 

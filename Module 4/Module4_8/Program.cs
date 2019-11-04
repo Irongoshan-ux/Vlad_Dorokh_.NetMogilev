@@ -10,7 +10,7 @@ namespace Module4_8
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DividingSegmentInHalf(0.5, 1, 0.0001));
+            Console.WriteLine("Решение уравнения x^3 - cos(x): " + DividingSegmentInHalf(0.5, 1, 0.0001));
         }
         static double Function(double x)
         {

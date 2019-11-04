@@ -15,28 +15,32 @@ namespace Module4_2
             int[] firstArray = new int[10];
             int[] secondArray = new int[15];
 
+            Console.Write("First array: ");
             for (int i = 0; i < firstArray.Length; i++)
             {
                 firstArray[i] = random.Next(-10, 10);
                 Console.Write(firstArray[i] + " ");
             }
 
-            Console.WriteLine();
-
-            for (int i = 0; i < secondArray.Length; i++)
+            Console.Write("\nSecond array: ");
+            for(int i = 0; i < secondArray.Length; i++)
             {
                 secondArray[i] = random.Next(-10, 10);
                 Console.Write(secondArray[i] + " ");
             }
 
-            Console.WriteLine();
-
             int[] sumOfArrays = AddTwoArrays(firstArray, secondArray);
 
+            Console.Write("\nSum of two arrays: ");
             for (int i = 0; i < sumOfArrays.Length; i++)
             {
                 Console.Write(sumOfArrays[i] + " ");
             }
+
+            Console.WriteLine("\nСложение двух строк: " + AddTwoStringValues("про", "верочка"));
+            Console.WriteLine("Сложение трех целых чисел: " + AddThreeIntValues(1, 7, 2));
+            Console.WriteLine("Сложение двух целых чисел: " + AddTwoIntValues(7, 2));
+            Console.WriteLine("Сложение 3 дробных чисел: " + AddThreeDoubleValues(6.9, 2, 1.1));
         }
 
         static int[] AddTwoArrays(int[] firstArray, int[] secondArray)
@@ -87,7 +91,7 @@ namespace Module4_2
             return firstValue + secondValue;
         }
 
-        double AddThreeDoubleValues(double firstValue, double secondValue, double thirdValue)
+        static double AddThreeDoubleValues(double firstValue, double secondValue, double thirdValue)
         {
             return firstValue + secondValue + thirdValue;
         }
