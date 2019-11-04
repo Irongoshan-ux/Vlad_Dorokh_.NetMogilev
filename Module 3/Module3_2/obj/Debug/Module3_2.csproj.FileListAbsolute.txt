@@ -1,0 +1,7 @@
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 3\Module3_2\bin\Debug\Module3_2.exe.config
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 3\Module3_2\bin\Debug\Module3_2.exe
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 3\Module3_2\bin\Debug\Module3_2.pdb
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 3\Module3_2\obj\Debug\Module3_2.csprojAssemblyReference.cache
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 3\Module3_2\obj\Debug\Module3_2.csproj.CoreCompileInputs.cache
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 3\Module3_2\obj\Debug\Module3_2.exe
+D:\Training\Vlad_Dorokh_.NetMogilev\Module 3\Module3_2\obj\Debug\Module3_2.pdb
