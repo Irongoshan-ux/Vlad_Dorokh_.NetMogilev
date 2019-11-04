@@ -12,15 +12,16 @@ namespace Module4_6
         {
             Random random = new Random();
 
-            int[] values = new int[random.Next(1, 15)];
+            int[] values = new int[random.Next(5, 15)];
 
+            Console.Write("Элементы массива: ");
             for(int i=0; i < values.Length; i++)
             {
                 values[i] = random.Next(-10, 10);
                 Console.Write(values[i] + " ");
             }
 
-            Console.WriteLine();
+            Console.Write("\nЭлементы массива, увеличенные на пять: ");
 
             EncreaseArrayElementsByFive(values);
 

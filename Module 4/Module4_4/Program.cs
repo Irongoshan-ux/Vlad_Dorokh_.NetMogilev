@@ -6,7 +6,15 @@ namespace Module4_4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(FindMaxAndMinValuesOfArrayAndSumOfArrayElements(new int[] { 3, 4, 8 }));
+            Console.WriteLine(FindMaxAndMinValuesOfArrayAndSumOfArrayElements(new int[] { 3, 4, 8, 0 }));
+
+            var (square, length) = GetSquareAndLengthOfCircle(2 * Math.PI);
+
+            Console.WriteLine($"Площадь и длина круга: {square}; {length}");
+
+            var (firstValue, secondValue, thirdValue) = IncreaseValuesByTen(19, -18, 108);
+
+            Console.WriteLine($"Значения после увеличения их на десять: {firstValue}, {secondValue}, {thirdValue}");
         }
 
         static (int, int, int) FindMaxAndMinValuesOfArrayAndSumOfArrayElements(int[] array)

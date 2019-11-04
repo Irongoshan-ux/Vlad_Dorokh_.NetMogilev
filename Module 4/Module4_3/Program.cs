@@ -10,7 +10,31 @@ namespace Module4_3
     {
         static void Main(string[] args)
         {
+            Random random = new Random();
 
+            int[] values = new int[10];
+
+            Console.Write("Values of array: ");
+            for (int i = 0; i < values.Length; i++)
+            {
+                values[i] = random.Next(-10, 10);
+                Console.Write(values[i] + " ");
+            }
+
+            FindMinAndMaxValuesOfArrayAndSumOfArrayElements(values, out int maxValue, out int minValue, out int sumOfArrayElements);
+
+            Console.WriteLine($"\n Max value: {maxValue} \n Min value: {minValue} \n Sum of array elements: {sumOfArrayElements}");
+
+            int firstValue = random.Next(-10, 10), secondValue = random.Next(-10, 10), thirdValue = random.Next(-10, 10);
+
+            IncreaseValuesByTen(ref firstValue, ref secondValue, ref thirdValue);
+
+            double radius = 2 * Math.PI;
+
+            GetSquareAndLengthOfCircle(radius, out double circleSquare, out double circleLength);
+
+            Console.WriteLine($"Values after adding ten: {firstValue}, {secondValue}, {thirdValue}");
+            Console.WriteLine($"Square and length of circle: {circleSquare}, {circleLength}");
         }
 
         static void IncreaseValuesByTen(ref int firstValue, ref int secondValue, ref int thirdValue)
